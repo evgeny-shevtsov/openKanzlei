@@ -1,0 +1,11 @@
+17-Jan-2026 00:12:28.389 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jan-2026 00:12:28.397 INFO [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jan-2026 00:12:28.413 WARNING [Thread-9] liquibase.database.null Failed to restore the auto commit to true
+17-Jan-2026 00:12:28.415 WARNING [Thread-9] liquibase.database.null Failed to restore the auto commit to true
+17-Jan-2026 00:12:28.957 WARNING [Thread-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable] appears to have started a thread named [MVStore background writer D:/Desktop/openKanzlei/flowable/tomcat/flowable-db/engine-db.mv.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:389)
+ org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
+17-Jan-2026 00:12:28.957 SEVERE [Thread-9] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [flowable] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1768eb76]) and a value of type [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000000008c829c70] (value [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000000008c829c70@13b65985]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+17-Jan-2026 00:12:28.966 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jan-2026 00:12:28.977 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
