@@ -1,0 +1,6 @@
+#FileLock
+#Fri Jan 16 15:29:34 CET 2026
+server=127.0.1.1\:9093
+hostName=kanzlei-001
+method=file
+id=19bc7362ad190d61cbf4e18fbd050851fdc141e15ce
