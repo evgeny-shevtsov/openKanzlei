@@ -4032,3 +4032,659 @@ A file path that is implicitly relative to the current working directory is not 
  org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
 16-Jan-2026 15:29:35.066 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 16-Jan-2026 15:29:35.080 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:30:33.764 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.113
+16-Jan-2026 16:30:33.771 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+16-Jan-2026 16:30:33.771 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+16-Jan-2026 16:30:33.771 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jan-2026 16:30:33.772 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-90-generic
+16-Jan-2026 16:30:33.772 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+16-Jan-2026 16:30:33.772 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+16-Jan-2026 16:30:33.772 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10-Ubuntu-124.04
+16-Jan-2026 16:30:33.772 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Ubuntu
+16-Jan-2026 16:30:33.773 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:30:33.773 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:30:33.795 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jan-2026 16:30:33.795 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+16-Jan-2026 16:30:33.795 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Jan-2026 16:30:33.797 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jan-2026 16:30:33.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jan-2026 16:30:33.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jan-2026 16:30:33.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jan-2026 16:30:33.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/conf/logging.properties
+16-Jan-2026 16:30:33.799 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jan-2026 16:30:33.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jan-2026 16:30:33.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jan-2026 16:30:33.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Jan-2026 16:30:33.801 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jan-2026 16:30:33.801 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jan-2026 16:30:33.801 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:30:33.801 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:30:33.802 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/temp
+16-Jan-2026 16:30:33.806 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Jan-2026 16:30:34.251 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+16-Jan-2026 16:30:34.289 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [842] milliseconds
+16-Jan-2026 16:30:34.355 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jan-2026 16:30:34.355 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+16-Jan-2026 16:30:34.380 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest.war]
+16-Jan-2026 16:30:34.413 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Jan-2026 16:30:38.802 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jan-2026 16:30:49.016 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:49.350 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:50.145 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:30:50.150 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:30:50.388 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_DEPLOYMENT created
+16-Jan-2026 16:30:50.394 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_RESOURCE created
+16-Jan-2026 16:30:50.401 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_DEFINITION created
+16-Jan-2026 16:30:50.406 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_EVENT_DEF_UNIQ created
+16-Jan-2026 16:30:50.412 INFORMATION [main] liquibase.changelog.null Table FLW_CHANNEL_DEFINITION created
+16-Jan-2026 16:30:50.416 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CHANNEL_DEF_UNIQ created
+16-Jan-2026 16:30:50.417 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::1::flowable ran successfully in 35ms
+16-Jan-2026 16:30:50.445 INFORMATION [main] liquibase.changelog.null Columns TYPE_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+16-Jan-2026 16:30:50.457 INFORMATION [main] liquibase.changelog.null Columns IMPLEMENTATION_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+16-Jan-2026 16:30:50.460 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::2::flowable ran successfully in 32ms
+16-Jan-2026 16:30:50.489 INFORMATION [main] liquibase.changelog.null Set Channel Definition type and implementation columns
+16-Jan-2026 16:30:50.490 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::3::flowable ran successfully in 23ms
+16-Jan-2026 16:30:50.499 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:50.586 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:50.612 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:50.781 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:30:50.785 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:30:50.861 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT created
+16-Jan-2026 16:30:50.868 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:30:50.874 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE created
+16-Jan-2026 16:30:50.875 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::1::activiti ran successfully in 19ms
+16-Jan-2026 16:30:50.888 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_HI_DECISION_EXECUTION created
+16-Jan-2026 16:30:50.890 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::2::flowable ran successfully in 8ms
+16-Jan-2026 16:30:50.908 INFORMATION [main] liquibase.changelog.null Columns SCOPE_TYPE_(varchar(255)) added to ACT_DMN_HI_DECISION_EXECUTION
+16-Jan-2026 16:30:50.909 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::3::flowable ran successfully in 12ms
+16-Jan-2026 16:30:50.927 INFORMATION [main] liquibase.changelog.null Column ACT_DMN_DECISION_TABLE.PARENT_DEPLOYMENT_ID_ dropped
+16-Jan-2026 16:30:50.928 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::4::flowable ran successfully in 11ms
+16-Jan-2026 16:30:50.939 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ created
+16-Jan-2026 16:30:50.940 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::6::flowable ran successfully in 6ms
+16-Jan-2026 16:30:50.950 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ dropped from table ACT_DMN_DECISION_TABLE
+16-Jan-2026 16:30:50.954 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE renamed to ACT_DMN_DECISION
+16-Jan-2026 16:30:50.957 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DMN_DEC_UNIQ created
+16-Jan-2026 16:30:50.958 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::7::flowable ran successfully in 12ms
+16-Jan-2026 16:30:50.971 INFORMATION [main] liquibase.changelog.null Columns DECISION_TYPE_(varchar(255)) added to ACT_DMN_DECISION
+16-Jan-2026 16:30:50.974 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::8::flowable ran successfully in 9ms
+16-Jan-2026 16:30:50.986 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DMN_INSTANCE_ID created
+16-Jan-2026 16:30:50.987 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::9::flowable ran successfully in 5ms
+16-Jan-2026 16:30:50.995 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:51.019 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:51.039 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:51.195 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:30:51.199 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:30:51.261 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_DEPLOYMENT created
+16-Jan-2026 16:30:51.268 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_RESOURCE created
+16-Jan-2026 16:30:51.279 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_DEFINITION created
+16-Jan-2026 16:30:51.292 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_INSTANCE created
+16-Jan-2026 16:30:51.296 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::1::activiti ran successfully in 44ms
+16-Jan-2026 16:30:51.358 INFORMATION [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)),SCOPE_DEFINITION_ID_(varchar(255)) added to ACT_FO_FORM_INSTANCE
+16-Jan-2026 16:30:51.359 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::2::flowable ran successfully in 49ms
+16-Jan-2026 16:30:51.390 INFORMATION [main] liquibase.changelog.null Column ACT_FO_FORM_DEFINITION.PARENT_DEPLOYMENT_ID_ dropped
+16-Jan-2026 16:30:51.391 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::3::flowable ran successfully in 20ms
+16-Jan-2026 16:30:51.420 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_DEF_UNIQ created
+16-Jan-2026 16:30:51.421 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::5::flowable ran successfully in 12ms
+16-Jan-2026 16:30:51.446 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_TASK created
+16-Jan-2026 16:30:51.451 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_PROC created
+16-Jan-2026 16:30:51.454 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_SCOPE created
+16-Jan-2026 16:30:51.455 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::6::flowable ran successfully in 21ms
+16-Jan-2026 16:30:51.459 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:51.479 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:51.509 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:51.641 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:30:51.645 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:30:51.680 INFORMATION [main] liquibase.changelog.null Table ACT_CO_CONTENT_ITEM created
+16-Jan-2026 16:30:51.684 INFORMATION [main] liquibase.changelog.null Index idx_contitem_taskid created
+16-Jan-2026 16:30:51.688 INFORMATION [main] liquibase.changelog.null Index idx_contitem_procid created
+16-Jan-2026 16:30:51.689 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::1::activiti ran successfully in 18ms
+16-Jan-2026 16:30:51.717 INFORMATION [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)) added to ACT_CO_CONTENT_ITEM
+16-Jan-2026 16:30:51.721 INFORMATION [main] liquibase.changelog.null Index idx_contitem_scope created
+16-Jan-2026 16:30:51.722 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::2::flowable ran successfully in 25ms
+16-Jan-2026 16:30:51.727 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:51.873 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:51.891 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:52.021 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:30:52.026 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:30:52.186 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT created
+16-Jan-2026 16:30:52.189 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:30:52.195 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+16-Jan-2026 16:30:52.197 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CMMN_RSRC_DPL created
+16-Jan-2026 16:30:52.202 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_CASEDEF created
+16-Jan-2026 16:30:52.205 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_CASEDEF (DEPLOYMENT_ID_)
+16-Jan-2026 16:30:52.208 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_DPLY created
+16-Jan-2026 16:30:52.212 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_CASE_INST created
+16-Jan-2026 16:30:52.216 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_CASE_INST (CASE_DEF_ID_)
+16-Jan-2026 16:30:52.219 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_CASE_DEF created
+16-Jan-2026 16:30:52.222 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_PARENT created
+16-Jan-2026 16:30:52.226 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_PLAN_ITEM_INST created
+16-Jan-2026 16:30:52.232 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_DEF_ID_)
+16-Jan-2026 16:30:52.235 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_DEF created
+16-Jan-2026 16:30:52.239 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_INST_ID_)
+16-Jan-2026 16:30:52.242 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_INST created
+16-Jan-2026 16:30:52.246 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_SENTRY_PART_INST created
+16-Jan-2026 16:30:52.251 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_DEF_ID_)
+16-Jan-2026 16:30:52.254 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_DEF created
+16-Jan-2026 16:30:52.258 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_INST_ID_)
+16-Jan-2026 16:30:52.261 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_INST created
+16-Jan-2026 16:30:52.265 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (PLAN_ITEM_INST_ID_)
+16-Jan-2026 16:30:52.268 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_PLAN_ITEM created
+16-Jan-2026 16:30:52.271 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_MIL_INST created
+16-Jan-2026 16:30:52.275 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_DEF_ID_)
+16-Jan-2026 16:30:52.277 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_DEF created
+16-Jan-2026 16:30:52.281 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_INST_ID_)
+16-Jan-2026 16:30:52.284 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_INST created
+16-Jan-2026 16:30:52.291 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_CASE_INST created
+16-Jan-2026 16:30:52.295 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_MIL_INST created
+16-Jan-2026 16:30:52.296 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::1::flowable ran successfully in 114ms
+16-Jan-2026 16:30:52.326 INFORMATION [main] liquibase.changelog.null Columns DGRM_RESOURCE_NAME_(varchar(4000)),HAS_START_FORM_KEY_(boolean) added to ACT_CMMN_CASEDEF
+16-Jan-2026 16:30:52.333 INFORMATION [main] liquibase.changelog.null Columns GENERATED_(boolean) added to ACT_CMMN_DEPLOYMENT_RESOURCE
+16-Jan-2026 16:30:52.342 INFORMATION [main] liquibase.changelog.null Columns LOCK_TIME_(datetime) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.360 INFORMATION [main] liquibase.changelog.null Columns ITEM_DEFINITION_ID_(varchar(255)),ITEM_DEFINITION_TYPE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.361 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::2::flowable ran successfully in 58ms
+16-Jan-2026 16:30:52.376 INFORMATION [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.386 INFORMATION [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.390 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_STAGE_INST created
+16-Jan-2026 16:30:52.399 INFORMATION [main] liquibase.changelog.null Columns IS_COUNT_ENABLED_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.408 INFORMATION [main] liquibase.changelog.null Columns VAR_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.416 INFORMATION [main] liquibase.changelog.null Columns SENTRY_PART_INST_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.417 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::3::flowable ran successfully in 51ms
+16-Jan-2026 16:30:52.429 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_PLAN_ITEM_INST created
+16-Jan-2026 16:30:52.438 INFORMATION [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_RU_MIL_INST
+16-Jan-2026 16:30:52.445 INFORMATION [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_HI_MIL_INST
+16-Jan-2026 16:30:52.446 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::4::flowable ran successfully in 24ms
+16-Jan-2026 16:30:52.453 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_UNIQ created
+16-Jan-2026 16:30:52.453 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::6::flowable ran successfully in 3ms
+16-Jan-2026 16:30:52.461 INFORMATION [main] liquibase.changelog.null Column ACT_CMMN_RU_PLAN_ITEM_INST.START_TIME_ renamed to CREATE_TIME_
+16-Jan-2026 16:30:52.464 INFORMATION [main] liquibase.changelog.null Column ACT_CMMN_HI_PLAN_ITEM_INST.CREATED_TIME_ renamed to CREATE_TIME_
+16-Jan-2026 16:30:52.555 INFORMATION [main] liquibase.changelog.null Columns LAST_AVAILABLE_TIME_(datetime(3)),LAST_ENABLED_TIME_(datetime(3)),LAST_DISABLED_TIME_(datetime(3)),LAST_STARTED_TIME_(datetime(3)),LAST_SUSPENDED_TIME_(datetime(3)),COMPLETED_TIME_(datetime(3)),OCCURRED_TIME_(datetime(3)),TERMINATED_TIME_(datetime(3)),EXIT_TIME_(datetime(3)),ENDED_TIME_(datetime(3)),ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.565 INFORMATION [main] liquibase.changelog.null Columns ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.566 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::7::flowable ran successfully in 108ms
+16-Jan-2026 16:30:52.576 INFORMATION [main] liquibase.changelog.null Columns SHOW_IN_OVERVIEW_(boolean) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.576 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::8::flowable ran successfully in 6ms
+16-Jan-2026 16:30:52.590 INFORMATION [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.597 INFORMATION [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.598 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::9::flowable ran successfully in 17ms
+16-Jan-2026 16:30:52.614 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.622 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.625 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_REF_ID_ created
+16-Jan-2026 16:30:52.632 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:30:52.638 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:30:52.639 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::10::flowable ran successfully in 36ms
+16-Jan-2026 16:30:52.664 INFORMATION [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.676 INFORMATION [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.678 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::11::flowable ran successfully in 32ms
+16-Jan-2026 16:30:52.710 INFORMATION [main] liquibase.changelog.null Columns LOCK_OWNER_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.712 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::12::flowable ran successfully in 26ms
+16-Jan-2026 16:30:52.727 INFORMATION [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.735 INFORMATION [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:30:52.736 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::13::flowable ran successfully in 18ms
+16-Jan-2026 16:30:52.759 INFORMATION [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.771 INFORMATION [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:30:52.771 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::14::flowable ran successfully in 30ms
+16-Jan-2026 16:30:52.787 INFORMATION [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:30:52.794 INFORMATION [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:30:52.796 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::16::flowable ran successfully in 18ms
+16-Jan-2026 16:30:52.806 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_HI_CASE_INST_END created
+16-Jan-2026 16:30:52.806 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::17::flowable ran successfully in 4ms
+16-Jan-2026 16:30:52.811 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:52.820 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:30:52.836 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:30:53.016 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:30:53.019 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:30:53.037 INFORMATION [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT created
+16-Jan-2026 16:30:53.041 INFORMATION [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:30:53.046 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+16-Jan-2026 16:30:53.050 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_RSRC_DPL created
+16-Jan-2026 16:30:53.054 INFORMATION [main] liquibase.changelog.null Table ACT_APP_APPDEF created
+16-Jan-2026 16:30:53.058 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_APPDEF (DEPLOYMENT_ID_)
+16-Jan-2026 16:30:53.061 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_DPLY created
+16-Jan-2026 16:30:53.061 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::1::flowable ran successfully in 28ms
+16-Jan-2026 16:30:53.070 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_UNIQ created
+16-Jan-2026 16:30:53.071 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::3::flowable ran successfully in 3ms
+16-Jan-2026 16:30:53.074 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:30:57.212 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest.war] has finished in [22.831] ms
+16-Jan-2026 16:30:57.215 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-ui.war]
+16-Jan-2026 16:30:57.219 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-ui] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Jan-2026 16:31:02.367 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jan-2026 16:31:14.039 INFORMATION [main] liquibase.servicelocator.null Cannot load service: liquibase.license.LicenseService: Provider liquibase.license.pro.DaticalTrueLicenseService could not be instantiated
+16-Jan-2026 16:31:14.048 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:14.330 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:15.159 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:31:15.166 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:31:15.346 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_DEPLOYMENT created
+16-Jan-2026 16:31:15.352 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_RESOURCE created
+16-Jan-2026 16:31:15.358 INFORMATION [main] liquibase.changelog.null Table FLW_EVENT_DEFINITION created
+16-Jan-2026 16:31:15.362 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_EVENT_DEF_UNIQ created
+16-Jan-2026 16:31:15.368 INFORMATION [main] liquibase.changelog.null Table FLW_CHANNEL_DEFINITION created
+16-Jan-2026 16:31:15.371 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CHANNEL_DEF_UNIQ created
+16-Jan-2026 16:31:15.372 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::1::flowable ran successfully in 33ms
+16-Jan-2026 16:31:15.408 INFORMATION [main] liquibase.changelog.null Columns TYPE_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+16-Jan-2026 16:31:15.416 INFORMATION [main] liquibase.changelog.null Columns IMPLEMENTATION_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+16-Jan-2026 16:31:15.417 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::2::flowable ran successfully in 32ms
+16-Jan-2026 16:31:15.443 INFORMATION [main] liquibase.changelog.null Set Channel Definition type and implementation columns
+16-Jan-2026 16:31:15.445 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::3::flowable ran successfully in 23ms
+16-Jan-2026 16:31:15.455 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:15.559 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:15.579 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:15.713 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:31:15.718 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:31:15.783 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT created
+16-Jan-2026 16:31:15.788 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:31:15.793 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE created
+16-Jan-2026 16:31:15.794 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::1::activiti ran successfully in 17ms
+16-Jan-2026 16:31:15.806 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_HI_DECISION_EXECUTION created
+16-Jan-2026 16:31:15.807 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::2::flowable ran successfully in 8ms
+16-Jan-2026 16:31:15.830 INFORMATION [main] liquibase.changelog.null Columns SCOPE_TYPE_(varchar(255)) added to ACT_DMN_HI_DECISION_EXECUTION
+16-Jan-2026 16:31:15.830 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::3::flowable ran successfully in 15ms
+16-Jan-2026 16:31:15.843 INFORMATION [main] liquibase.changelog.null Column ACT_DMN_DECISION_TABLE.PARENT_DEPLOYMENT_ID_ dropped
+16-Jan-2026 16:31:15.848 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::4::flowable ran successfully in 9ms
+16-Jan-2026 16:31:15.858 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ created
+16-Jan-2026 16:31:15.859 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::6::flowable ran successfully in 4ms
+16-Jan-2026 16:31:15.872 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ dropped from table ACT_DMN_DECISION_TABLE
+16-Jan-2026 16:31:15.877 INFORMATION [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE renamed to ACT_DMN_DECISION
+16-Jan-2026 16:31:15.880 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DMN_DEC_UNIQ created
+16-Jan-2026 16:31:15.881 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::7::flowable ran successfully in 18ms
+16-Jan-2026 16:31:15.895 INFORMATION [main] liquibase.changelog.null Columns DECISION_TYPE_(varchar(255)) added to ACT_DMN_DECISION
+16-Jan-2026 16:31:15.897 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::8::flowable ran successfully in 10ms
+16-Jan-2026 16:31:15.913 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_DMN_INSTANCE_ID created
+16-Jan-2026 16:31:15.917 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::9::flowable ran successfully in 10ms
+16-Jan-2026 16:31:15.924 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:15.945 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:15.959 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:16.134 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:31:16.138 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:31:16.173 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_DEPLOYMENT created
+16-Jan-2026 16:31:16.180 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_RESOURCE created
+16-Jan-2026 16:31:16.185 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_DEFINITION created
+16-Jan-2026 16:31:16.190 INFORMATION [main] liquibase.changelog.null Table ACT_FO_FORM_INSTANCE created
+16-Jan-2026 16:31:16.191 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::1::activiti ran successfully in 24ms
+16-Jan-2026 16:31:16.227 INFORMATION [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)),SCOPE_DEFINITION_ID_(varchar(255)) added to ACT_FO_FORM_INSTANCE
+16-Jan-2026 16:31:16.228 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::2::flowable ran successfully in 31ms
+16-Jan-2026 16:31:16.239 INFORMATION [main] liquibase.changelog.null Column ACT_FO_FORM_DEFINITION.PARENT_DEPLOYMENT_ID_ dropped
+16-Jan-2026 16:31:16.240 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::3::flowable ran successfully in 8ms
+16-Jan-2026 16:31:16.256 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_DEF_UNIQ created
+16-Jan-2026 16:31:16.257 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::5::flowable ran successfully in 8ms
+16-Jan-2026 16:31:16.268 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_TASK created
+16-Jan-2026 16:31:16.271 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_PROC created
+16-Jan-2026 16:31:16.274 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_FORM_SCOPE created
+16-Jan-2026 16:31:16.275 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::6::flowable ran successfully in 12ms
+16-Jan-2026 16:31:16.280 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:16.295 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:16.315 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:16.426 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:31:16.429 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:31:16.451 INFORMATION [main] liquibase.changelog.null Table ACT_CO_CONTENT_ITEM created
+16-Jan-2026 16:31:16.454 INFORMATION [main] liquibase.changelog.null Index idx_contitem_taskid created
+16-Jan-2026 16:31:16.458 INFORMATION [main] liquibase.changelog.null Index idx_contitem_procid created
+16-Jan-2026 16:31:16.459 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::1::activiti ran successfully in 13ms
+16-Jan-2026 16:31:16.479 INFORMATION [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)) added to ACT_CO_CONTENT_ITEM
+16-Jan-2026 16:31:16.482 INFORMATION [main] liquibase.changelog.null Index idx_contitem_scope created
+16-Jan-2026 16:31:16.483 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::2::flowable ran successfully in 19ms
+16-Jan-2026 16:31:16.487 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:16.658 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:16.673 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:16.820 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:31:16.824 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:31:16.940 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT created
+16-Jan-2026 16:31:16.944 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:31:16.950 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+16-Jan-2026 16:31:16.953 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CMMN_RSRC_DPL created
+16-Jan-2026 16:31:16.958 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_CASEDEF created
+16-Jan-2026 16:31:16.962 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_CASEDEF (DEPLOYMENT_ID_)
+16-Jan-2026 16:31:16.964 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_DPLY created
+16-Jan-2026 16:31:16.968 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_CASE_INST created
+16-Jan-2026 16:31:16.972 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_CASE_INST (CASE_DEF_ID_)
+16-Jan-2026 16:31:16.975 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_CASE_DEF created
+16-Jan-2026 16:31:16.977 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_PARENT created
+16-Jan-2026 16:31:16.981 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_PLAN_ITEM_INST created
+16-Jan-2026 16:31:16.985 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_DEF_ID_)
+16-Jan-2026 16:31:16.990 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_DEF created
+16-Jan-2026 16:31:16.994 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_INST_ID_)
+16-Jan-2026 16:31:16.996 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_INST created
+16-Jan-2026 16:31:17.000 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_SENTRY_PART_INST created
+16-Jan-2026 16:31:17.006 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_DEF_ID_)
+16-Jan-2026 16:31:17.009 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_DEF created
+16-Jan-2026 16:31:17.015 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_INST_ID_)
+16-Jan-2026 16:31:17.019 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_INST created
+16-Jan-2026 16:31:17.024 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (PLAN_ITEM_INST_ID_)
+16-Jan-2026 16:31:17.027 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_SENTRY_PLAN_ITEM created
+16-Jan-2026 16:31:17.031 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_RU_MIL_INST created
+16-Jan-2026 16:31:17.035 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_DEF_ID_)
+16-Jan-2026 16:31:17.038 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_DEF created
+16-Jan-2026 16:31:17.042 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_INST_ID_)
+16-Jan-2026 16:31:17.045 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_INST created
+16-Jan-2026 16:31:17.050 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_CASE_INST created
+16-Jan-2026 16:31:17.056 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_MIL_INST created
+16-Jan-2026 16:31:17.057 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::1::flowable ran successfully in 122ms
+16-Jan-2026 16:31:17.086 INFORMATION [main] liquibase.changelog.null Columns DGRM_RESOURCE_NAME_(varchar(4000)),HAS_START_FORM_KEY_(boolean) added to ACT_CMMN_CASEDEF
+16-Jan-2026 16:31:17.096 INFORMATION [main] liquibase.changelog.null Columns GENERATED_(boolean) added to ACT_CMMN_DEPLOYMENT_RESOURCE
+16-Jan-2026 16:31:17.108 INFORMATION [main] liquibase.changelog.null Columns LOCK_TIME_(datetime) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.133 INFORMATION [main] liquibase.changelog.null Columns ITEM_DEFINITION_ID_(varchar(255)),ITEM_DEFINITION_TYPE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.135 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::2::flowable ran successfully in 71ms
+16-Jan-2026 16:31:17.148 INFORMATION [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.161 INFORMATION [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.164 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_STAGE_INST created
+16-Jan-2026 16:31:17.171 INFORMATION [main] liquibase.changelog.null Columns IS_COUNT_ENABLED_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.179 INFORMATION [main] liquibase.changelog.null Columns VAR_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.185 INFORMATION [main] liquibase.changelog.null Columns SENTRY_PART_INST_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.186 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::3::flowable ran successfully in 46ms
+16-Jan-2026 16:31:17.195 INFORMATION [main] liquibase.changelog.null Table ACT_CMMN_HI_PLAN_ITEM_INST created
+16-Jan-2026 16:31:17.205 INFORMATION [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_RU_MIL_INST
+16-Jan-2026 16:31:17.210 INFORMATION [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_HI_MIL_INST
+16-Jan-2026 16:31:17.211 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::4::flowable ran successfully in 21ms
+16-Jan-2026 16:31:17.219 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_UNIQ created
+16-Jan-2026 16:31:17.220 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::6::flowable ran successfully in 5ms
+16-Jan-2026 16:31:17.228 INFORMATION [main] liquibase.changelog.null Column ACT_CMMN_RU_PLAN_ITEM_INST.START_TIME_ renamed to CREATE_TIME_
+16-Jan-2026 16:31:17.231 INFORMATION [main] liquibase.changelog.null Column ACT_CMMN_HI_PLAN_ITEM_INST.CREATED_TIME_ renamed to CREATE_TIME_
+16-Jan-2026 16:31:17.312 INFORMATION [main] liquibase.changelog.null Columns LAST_AVAILABLE_TIME_(datetime(3)),LAST_ENABLED_TIME_(datetime(3)),LAST_DISABLED_TIME_(datetime(3)),LAST_STARTED_TIME_(datetime(3)),LAST_SUSPENDED_TIME_(datetime(3)),COMPLETED_TIME_(datetime(3)),OCCURRED_TIME_(datetime(3)),TERMINATED_TIME_(datetime(3)),EXIT_TIME_(datetime(3)),ENDED_TIME_(datetime(3)),ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.322 INFORMATION [main] liquibase.changelog.null Columns ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.323 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::7::flowable ran successfully in 99ms
+16-Jan-2026 16:31:17.334 INFORMATION [main] liquibase.changelog.null Columns SHOW_IN_OVERVIEW_(boolean) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.336 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::8::flowable ran successfully in 7ms
+16-Jan-2026 16:31:17.362 INFORMATION [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.370 INFORMATION [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.371 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::9::flowable ran successfully in 20ms
+16-Jan-2026 16:31:17.384 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.392 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.395 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_REF_ID_ created
+16-Jan-2026 16:31:17.400 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:31:17.406 INFORMATION [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:31:17.407 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::10::flowable ran successfully in 32ms
+16-Jan-2026 16:31:17.424 INFORMATION [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.434 INFORMATION [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.435 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::11::flowable ran successfully in 23ms
+16-Jan-2026 16:31:17.446 INFORMATION [main] liquibase.changelog.null Columns LOCK_OWNER_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.447 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::12::flowable ran successfully in 7ms
+16-Jan-2026 16:31:17.465 INFORMATION [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.478 INFORMATION [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+16-Jan-2026 16:31:17.479 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::13::flowable ran successfully in 29ms
+16-Jan-2026 16:31:17.504 INFORMATION [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.524 INFORMATION [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:31:17.528 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::14::flowable ran successfully in 43ms
+16-Jan-2026 16:31:17.543 INFORMATION [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+16-Jan-2026 16:31:17.549 INFORMATION [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+16-Jan-2026 16:31:17.550 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::16::flowable ran successfully in 14ms
+16-Jan-2026 16:31:17.559 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_HI_CASE_INST_END created
+16-Jan-2026 16:31:17.560 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::17::flowable ran successfully in 4ms
+16-Jan-2026 16:31:17.565 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:17.575 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:17.589 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:17.721 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:31:17.724 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:31:17.746 INFORMATION [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT created
+16-Jan-2026 16:31:17.750 INFORMATION [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT_RESOURCE created
+16-Jan-2026 16:31:17.755 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+16-Jan-2026 16:31:17.758 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_RSRC_DPL created
+16-Jan-2026 16:31:17.763 INFORMATION [main] liquibase.changelog.null Table ACT_APP_APPDEF created
+16-Jan-2026 16:31:17.767 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_APPDEF (DEPLOYMENT_ID_)
+16-Jan-2026 16:31:17.770 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_DPLY created
+16-Jan-2026 16:31:17.771 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::1::flowable ran successfully in 29ms
+16-Jan-2026 16:31:17.781 INFORMATION [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_UNIQ created
+16-Jan-2026 16:31:17.781 INFORMATION [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::3::flowable ran successfully in 5ms
+16-Jan-2026 16:31:17.785 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:19.906 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:19.923 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:20.087 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_ADM_DATABASECHANGELOG
+16-Jan-2026 16:31:20.092 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_ADM_DATABASECHANGELOG
+16-Jan-2026 16:31:20.108 INFORMATION [main] liquibase.changelog.null Table ACT_ADM_SERVER_CONFIG created
+16-Jan-2026 16:31:20.109 INFORMATION [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-admin-app-db-changelog.xml::1::flowable ran successfully in 5ms
+16-Jan-2026 16:31:20.115 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:20.589 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:31:20.603 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:31:20.771 INFORMATION [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_DE_DATABASECHANGELOG
+16-Jan-2026 16:31:20.775 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+16-Jan-2026 16:31:20.801 INFORMATION [main] liquibase.changelog.null Table ACT_DE_MODEL created
+16-Jan-2026 16:31:20.805 INFORMATION [main] liquibase.changelog.null Index idx_proc_mod_created created
+16-Jan-2026 16:31:20.809 INFORMATION [main] liquibase.changelog.null Table ACT_DE_MODEL_HISTORY created
+16-Jan-2026 16:31:20.812 INFORMATION [main] liquibase.changelog.null Index idx_proc_mod_history_proc created
+16-Jan-2026 16:31:20.815 INFORMATION [main] liquibase.changelog.null Table ACT_DE_MODEL_RELATION created
+16-Jan-2026 16:31:20.820 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_DE_MODEL_RELATION (parent_model_id)
+16-Jan-2026 16:31:20.824 INFORMATION [main] liquibase.changelog.null Foreign key constraint added to ACT_DE_MODEL_RELATION (model_id)
+16-Jan-2026 16:31:20.824 INFORMATION [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-modeler-app-db-changelog.xml::1::flowable ran successfully in 29ms
+16-Jan-2026 16:31:20.838 INFORMATION [main] liquibase.changelog.null Columns tenant_id(varchar(255)) added to ACT_DE_MODEL
+16-Jan-2026 16:31:20.844 INFORMATION [main] liquibase.changelog.null Columns tenant_id(varchar(255)) added to ACT_DE_MODEL_HISTORY
+16-Jan-2026 16:31:20.845 INFORMATION [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-modeler-app-db-changelog.xml::3::flowable ran successfully in 14ms
+16-Jan-2026 16:31:20.848 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:31:23.105 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-ui.war] has finished in [25.890] ms
+16-Jan-2026 16:31:23.107 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/manager]
+16-Jan-2026 16:31:23.165 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/manager] has finished in [58] ms
+16-Jan-2026 16:31:23.165 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/examples]
+16-Jan-2026 16:31:23.367 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/examples] has finished in [202] ms
+16-Jan-2026 16:31:23.367 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/docs]
+16-Jan-2026 16:31:23.391 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/docs] has finished in [24] ms
+16-Jan-2026 16:31:23.392 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/host-manager]
+16-Jan-2026 16:31:23.425 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/host-manager] has finished in [33] ms
+16-Jan-2026 16:31:23.425 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/ROOT]
+16-Jan-2026 16:31:23.446 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/ROOT] has finished in [21] ms
+16-Jan-2026 16:31:23.458 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:31:23.493 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [49203] milliseconds
+16-Jan-2026 16:33:44.548 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:33:44.550 INFORMATION [Thread-18] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jan-2026 16:33:44.594 WARNUNG [Thread-18] liquibase.database.null Failed to restore the auto commit to true
+16-Jan-2026 16:33:44.654 WARNUNG [Thread-18] liquibase.database.null Failed to restore the auto commit to true
+16-Jan-2026 16:33:45.244 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [H2 File Lock Watchdog /home/kanzlei/flowable-db/engine-db.lock.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:486)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:33:45.245 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [H2 TCP Server (tcp://127.0.1.1:9093)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/sun.nio.ch.Net.accept(Native Method)
+ java.base@17.0.17/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:760)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+ java.base@17.0.17/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+ java.base@17.0.17/java.net.ServerSocket.accept(ServerSocket.java:532)
+ org.h2.server.TcpServer.listen(TcpServer.java:254)
+ org.h2.tools.Server.run(Server.java:635)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:33:45.245 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [MVStore background writer /home/kanzlei/flowable-db/engine-db.mv.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Object.wait(Native Method)
+ org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
+16-Jan-2026 16:33:45.246 SCHWERWIEGEND [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [flowable-ui] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@63ca3010]) and a value of type [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda$2049/0x00007774151fdc48] (value [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda$2049/0x00007774151fdc48@2e0cdd44]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Jan-2026 16:33:45.445 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [H2 File Lock Watchdog /home/kanzlei/flowable-db/db.lock.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:486)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:33:45.446 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [H2 TCP Server (tcp://127.0.1.1:9091)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/sun.nio.ch.Net.accept(Native Method)
+ java.base@17.0.17/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:760)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+ java.base@17.0.17/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+ java.base@17.0.17/java.net.ServerSocket.accept(ServerSocket.java:532)
+ org.h2.server.TcpServer.listen(TcpServer.java:254)
+ org.h2.tools.Server.run(Server.java:635)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:33:45.446 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [MVStore background writer /home/kanzlei/flowable-db/db.mv.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Object.wait(Native Method)
+ org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
+16-Jan-2026 16:33:45.458 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:33:45.469 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:34:12.539 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.113
+16-Jan-2026 16:34:12.547 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+16-Jan-2026 16:34:12.549 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+16-Jan-2026 16:34:12.549 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jan-2026 16:34:12.549 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-90-generic
+16-Jan-2026 16:34:12.549 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+16-Jan-2026 16:34:12.550 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+16-Jan-2026 16:34:12.550 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10-Ubuntu-124.04
+16-Jan-2026 16:34:12.550 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Ubuntu
+16-Jan-2026 16:34:12.550 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:34:12.550 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:34:12.561 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jan-2026 16:34:12.562 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+16-Jan-2026 16:34:12.562 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Jan-2026 16:34:12.562 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/conf/logging.properties
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jan-2026 16:34:12.563 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:34:12.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:34:12.565 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/temp
+16-Jan-2026 16:34:12.568 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Jan-2026 16:34:13.018 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+16-Jan-2026 16:34:13.061 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [829] milliseconds
+16-Jan-2026 16:34:13.144 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jan-2026 16:34:13.145 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+16-Jan-2026 16:34:13.176 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest.war]
+16-Jan-2026 16:34:17.450 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jan-2026 16:35:04.246 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.113
+16-Jan-2026 16:35:04.254 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+16-Jan-2026 16:35:04.255 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+16-Jan-2026 16:35:04.255 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Jan-2026 16:35:04.255 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-90-generic
+16-Jan-2026 16:35:04.255 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+16-Jan-2026 16:35:04.256 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+16-Jan-2026 16:35:04.256 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10-Ubuntu-124.04
+16-Jan-2026 16:35:04.256 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Ubuntu
+16-Jan-2026 16:35:04.256 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:35:04.256 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:35:04.280 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jan-2026 16:35:04.281 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+16-Jan-2026 16:35:04.281 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Jan-2026 16:35:04.281 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jan-2026 16:35:04.281 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jan-2026 16:35:04.281 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jan-2026 16:35:04.282 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jan-2026 16:35:04.283 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/conf/logging.properties
+16-Jan-2026 16:35:04.283 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jan-2026 16:35:04.283 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jan-2026 16:35:04.284 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jan-2026 16:35:04.285 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Jan-2026 16:35:04.285 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jan-2026 16:35:04.286 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jan-2026 16:35:04.286 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:35:04.286 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat
+16-Jan-2026 16:35:04.286 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/temp
+16-Jan-2026 16:35:04.292 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Jan-2026 16:35:04.738 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+16-Jan-2026 16:35:04.779 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [861] milliseconds
+16-Jan-2026 16:35:04.844 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jan-2026 16:35:04.845 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+16-Jan-2026 16:35:04.872 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest.war]
+16-Jan-2026 16:35:09.156 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jan-2026 16:35:25.290 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:25.654 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:26.540 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:35:26.786 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:26.847 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:26.887 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:27.057 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:35:27.117 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:27.136 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:27.158 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:27.277 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:35:27.338 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:27.379 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:27.415 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:27.564 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:35:27.617 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:27.815 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:27.833 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:27.979 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:35:28.109 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:28.121 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:28.176 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:28.327 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:35:28.351 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:31.776 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-rest.war] has finished in [26.901] ms
+16-Jan-2026 16:35:31.779 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-ui.war]
+16-Jan-2026 16:35:36.700 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jan-2026 16:35:53.734 INFORMATION [main] liquibase.servicelocator.null Cannot load service: liquibase.license.LicenseService: Provider liquibase.license.pro.DaticalTrueLicenseService could not be instantiated
+16-Jan-2026 16:35:53.750 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:54.107 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:55.122 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+16-Jan-2026 16:35:55.248 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:55.315 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:55.346 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:55.542 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+16-Jan-2026 16:35:55.587 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:55.608 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:55.626 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:55.749 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+16-Jan-2026 16:35:55.778 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:55.797 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:55.817 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:55.917 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+16-Jan-2026 16:35:55.935 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:56.076 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:56.087 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:56.212 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+16-Jan-2026 16:35:56.268 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:56.277 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:56.291 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:56.394 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+16-Jan-2026 16:35:56.409 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:58.735 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:58.754 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:58.889 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_ADM_DATABASECHANGELOG
+16-Jan-2026 16:35:58.904 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:35:59.382 INFORMATION [main] liquibase.database.null Set default schema name to PUBLIC
+16-Jan-2026 16:35:59.403 INFORMATION [main] liquibase.lockservice.null Changelog-Protokoll erfolgreich gesperrt.
+16-Jan-2026 16:35:59.509 INFORMATION [main] liquibase.changelog.null Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+16-Jan-2026 16:35:59.528 INFORMATION [main] liquibase.lockservice.null Successfully released change log lock
+16-Jan-2026 16:36:01.763 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/flowable-ui.war] has finished in [29.984] ms
+16-Jan-2026 16:36:01.764 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/manager]
+16-Jan-2026 16:36:01.825 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/manager] has finished in [60] ms
+16-Jan-2026 16:36:01.827 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/examples]
+16-Jan-2026 16:36:02.048 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/examples] has finished in [222] ms
+16-Jan-2026 16:36:02.049 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/docs]
+16-Jan-2026 16:36:02.079 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/docs] has finished in [29] ms
+16-Jan-2026 16:36:02.080 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/host-manager]
+16-Jan-2026 16:36:02.109 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/host-manager] has finished in [28] ms
+16-Jan-2026 16:36:02.110 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/ROOT]
+16-Jan-2026 16:36:02.140 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/webapps/ROOT] has finished in [29] ms
+16-Jan-2026 16:36:02.151 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:36:02.176 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [57396] milliseconds
+16-Jan-2026 16:55:34.611 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:55:34.614 INFORMATION [Thread-18] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jan-2026 16:55:34.659 WARNUNG [Thread-18] liquibase.database.null Failed to restore the auto commit to true
+16-Jan-2026 16:55:34.740 WARNUNG [Thread-18] liquibase.database.null Failed to restore the auto commit to true
+16-Jan-2026 16:55:35.285 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [H2 File Lock Watchdog /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/flowable-db/engine-db.lock.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:486)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:55:35.286 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [H2 TCP Server (tcp://127.0.1.1:9093)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/sun.nio.ch.Net.accept(Native Method)
+ java.base@17.0.17/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:760)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+ java.base@17.0.17/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+ java.base@17.0.17/java.net.ServerSocket.accept(ServerSocket.java:532)
+ org.h2.server.TcpServer.listen(TcpServer.java:254)
+ org.h2.tools.Server.run(Server.java:635)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:55:35.287 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-ui] appears to have started a thread named [MVStore background writer /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/flowable-db/engine-db.mv.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Object.wait(Native Method)
+ org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
+16-Jan-2026 16:55:35.288 SCHWERWIEGEND [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [flowable-ui] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6b3025d6]) and a value of type [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda$2033/0x000076aec917cdc8] (value [org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda$2033/0x000076aec917cdc8@5ed22b23]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Jan-2026 16:55:35.512 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [H2 File Lock Watchdog /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/flowable-db/db.lock.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:486)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:55:35.513 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [H2 TCP Server (tcp://127.0.1.1:9091)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/sun.nio.ch.Net.accept(Native Method)
+ java.base@17.0.17/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:760)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+ java.base@17.0.17/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+ java.base@17.0.17/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+ java.base@17.0.17/java.net.ServerSocket.accept(ServerSocket.java:532)
+ org.h2.server.TcpServer.listen(TcpServer.java:254)
+ org.h2.tools.Server.run(Server.java:635)
+ java.base@17.0.17/java.lang.Thread.run(Thread.java:840)
+16-Jan-2026 16:55:35.513 WARNUNG [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [flowable-rest] appears to have started a thread named [MVStore background writer /home/kanzlei/Schreibtisch/openKanzlei/flowable/tomcat/flowable-db/db.mv.db] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.17/java.lang.Object.wait(Native Method)
+ org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2243)
+16-Jan-2026 16:55:35.525 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jan-2026 16:55:35.532 INFORMATION [Thread-18] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
