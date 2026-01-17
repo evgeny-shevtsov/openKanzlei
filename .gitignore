@@ -12,6 +12,8 @@ yarn.lock
 /build
 logs/
 
+/flowable/tomcat/webapps/flowable/
+
 # misc
 .eslintcache
 .DS_Store
