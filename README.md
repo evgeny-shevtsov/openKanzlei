@@ -61,7 +61,7 @@ Aktuell werden API-Antworten von der Frontend und nicht von der Backend verarbei
 Die Backend ist Node.js Express REST Server, welcher die Daten zwischen Frontend und Flowable verarbeitet. Der Nutzer/Die Frontend soll wegen Sicherheitsgründen keinen direkten Zugriff
 auf Flowable haben.
 
-<img width="542" height="538" alt="Unbenanntes Diagramm-Backend drawio" src="https://github.com/user-attachments/assets/c980a377-c87a-4e29-8a4c-3c20a47d1115" />
+<img width="541" height="531" alt="Unbenanntes Diagramm-Backend drawio(1)" src="https://github.com/user-attachments/assets/f44fd6e8-d47d-410d-8527-9d4d1f3fc24a" />
 
 *Die Funktionsweise der Backend. Alle Anfragen auf den `/api`-Endpoint werden zu der Proxy weitergeleitet.* 
 
